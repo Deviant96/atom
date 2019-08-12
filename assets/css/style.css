@@ -112,15 +112,20 @@ ul{
 a {
     text-decoration: none;
 }
+a:hover{
+    color:#AAA;
+    transition: ease 0.3s;
+}
 
 #showcase{
     min-height: 400px;
     background: url('../img/showcase.jpg') 0 0;
     text-align:center;
     color: rgb(50, 50, 50);
+    margin-bottom:20px;
 }
 
-#showcase h1{
+#showcase h2{
     margin-top:100px;
     font-size: 55px;
     margin-bottom: 10px;
@@ -192,14 +197,14 @@ ul#services li{
 
 footer{
     padding:15px;
-    color:#999;
+    color:rgb(209, 209, 209);
     background:#038cc2;
     text-align: left;
     font-size:13px;
 }
 
 footer a{
-    color:#ddd;
+    color:#FFF;
 }
 
 footer a:hover{
@@ -234,9 +239,13 @@ footer .follow-me {
     
 }
 
+footer#top-footer {
+    margin-top:20px;
+}
+
 footer#bottom-footer {
     background-color:#02455f;
-    text-align:right;
+    text-align:center;
 }
 
 /* Media Queries */
@@ -256,10 +265,6 @@ footer#bottom-footer {
 
     header{
         padding-bottom:20px;
-    }
-
-    #showcase h1{
-        margin-top:40px;
     }
 
     #newsletter button, .quote button{
